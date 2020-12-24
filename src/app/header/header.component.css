@@ -1,0 +1,10 @@
+.badge:hover {
+    background-color: rgb(13, 119, 241);
+    color: antiquewhite;
+}
+
+.search-bar {
+    position: relative;
+    top: 8px;
+    
+}

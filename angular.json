@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "temp-app"
+  "defaultProject": "temp-app",
+  "cli": {
+    "analytics": "411fab69-33cc-4325-ac88-a069a906ddf2"
+  }
 }

@@ -1,0 +1,49 @@
+<div class="page-container">
+    <h2 style="text-align: center;  padding: 20px;">Add New Match</h2>
+    <div class="card">
+    <div class="card-body">
+        <form>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-3 col-form-label">Club One Name</label>
+              <div class="col-sm-8">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Eg: Barcelona">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-3 col-form-label">Club One Score</label>
+              <div class="col-sm-8">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Eg: 10">
+              </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-3 col-form-label">Club Two Name</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Eg: Atlanta Falcon">
+                </div>
+              </div>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-3 col-form-label">Club Two Score</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Eg: 12">
+                </div>
+              </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-3 col-form-label">Match Date</label>
+                <div class='col-sm-8'>
+                  <div class='input-group date' id='datetimepicker5'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                 </div>
+                </div>
+            </div>  
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button (click)="alertMatch()" type="submit" class="btn btn-primary">Add Match</button>
+              </div>
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
